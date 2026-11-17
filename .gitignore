@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Data
+data/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Chroma
+chroma/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
